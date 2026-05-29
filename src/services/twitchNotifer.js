@@ -55,7 +55,7 @@ async function startTwitchNotifier(client) {
         const { EmbedBuilder } = require('discord.js');
 
         const embed = new EmbedBuilder()
-          .setTitle(`🔴 ${stream.user_name} est en live !`)
+          .setTitle(`🔴 MALTRYKs est en live !`)
           .setDescription(stream.title)
           .setURL(`https://twitch.tv/${login}`)
           .setColor(0x9146FF)
@@ -68,7 +68,7 @@ async function startTwitchNotifier(client) {
               .replace('{width}', '320')
               .replace('{height}', '180')
           )
-          .setFooter({ text: 'Twitch • Rejoins le stream !' });
+          .setFooter({ text: 'Viens vite !' })
 
         await channel.send({ content: `${role} Je suis en live !`, embeds: [embed] });
       }
