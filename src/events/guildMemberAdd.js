@@ -7,7 +7,7 @@ export default {
     if (!channel) return;
 
     const embed = new EmbedBuilder()
-      .setTitle(`👋 Bienvenue sur ${member.guild.name} !`)
+      .setTitle(`👋 Bienvenue chez les MALTROUKs 2 BAL !`)
       .setDescription(`Salut ${member} ! Content de t'avoir parmi nous.`)
       .setThumbnail(member.displayAvatarURL({ dynamic: true }))
       .setColor(0x5865F2)
