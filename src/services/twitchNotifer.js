@@ -84,4 +84,5 @@ async function startTwitchNotifier(client) {
   setInterval(poll, 3 * 60 * 1000);
 }
 
-module.exports = { startTwitchNotifier };
+export { startTwitchNotifier };
+
